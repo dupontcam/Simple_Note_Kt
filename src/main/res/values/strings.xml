@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">Simple Note</string>
+    <string name="Save_note">Save Note</string>
+    <string name="Deletar">Delete</string>
+    <string name="Salvar_edição">Update</string>
+    <string name="Sample_note_title">Sample Note Title</string>
+    <string name="Sample_note_description">Sample Note Description</string>
+    <string name="Date">01/08/2024</string>
+    <string name="Time">15:03</string>
+    <string name="theme_blue">theme blue</string>
+    <string name="theme_green">theme green</string>
+    <string name="theme_default">theme default</string>
+    <string name="theme_black">theme black</string>
+    <string name="theme_amber">theme amber</string>
+    <string name="theme_orange">theme orange</string>
+    <string name="theme_purple">theme purple</string>
+    <string name="theme_deepPurple">theme deeppurple</string>
+    <string name="theme_indigo">theme indigo</string>
+    <string name="theme_deepOrange">theme deeporange</string>
+    <string name="theme_teal">theme teal</string>
+    <string name="themes_list">themes list</string>
+    <string name="Add_note">Add_note</string>
+    <string name="Grid_view">Grid_view</string>
+    <string name="Search">Search</string>
+    <string name="List_view">List_view</string>
 </resources>

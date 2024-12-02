@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "br.com.example.simplenote"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "br.com.example.simplenote"

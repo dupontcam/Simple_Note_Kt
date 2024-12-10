@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/grid"
+        android:icon="@drawable/baseline_grid_view_24"
+        android:iconTint="?attr/colorControlNormal"
+        android:orderInCategory="200"
+        android:title="@string/grid_view"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/baseline_search_24"
+        android:iconTint="?attr/colorControlNormal"
+        android:orderInCategory="100"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/list"
+        android:icon="@drawable/baseline_view_list_24"
+        android:iconTint="?attr/colorControlNormal"
+        android:orderInCategory="300"
+        android:title="@string/list_view"
+        app:showAsAction="ifRoom" />
+
+    <!-- Item com Submenu de temas -->
+    <item
+        android:id="@+id/submenu_themes"
+        android:icon="@drawable/baseline_color_lens_24"
+        android:iconTint="?attr/colorControlNormal"
+        android:orderInCategory="400"
+        android:title="@string/themes_list"
+        app:showAsAction="always" />
+</menu>

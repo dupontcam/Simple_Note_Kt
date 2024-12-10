@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Simple Note</string>
+    <string name="add_new_note">Add new note</string>
+    <string name="note_image">Note Image</string>
+    <string name="sample_note_title">Sample Note Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="note_title">Note Title</string>
+    <string name="note_description">Note Description</string>
+    <string name="save_note">Save Note</string>
+    <string name="grid_view">Grid View</string>
+    <string name="search">Search</string>
+    <string name="list_view">List View</string>
+    <string name="themes_list">Themes List</string>
 </resources>

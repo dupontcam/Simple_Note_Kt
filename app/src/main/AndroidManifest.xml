@@ -13,6 +13,13 @@
         android:theme="@style/Theme.SimpleNote"
         tools:targetApi="31">
         <activity
+            android:name=".ui.UpdateDelete"
+            android:exported="true">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
+        <activity
             android:name=".ui.AddNote"
             android:exported="false">
             <meta-data

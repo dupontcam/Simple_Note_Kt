@@ -12,4 +12,6 @@
     <string name="search">Search</string>
     <string name="list_view">List View</string>
     <string name="themes_list">Themes List</string>
+    <string name="delete">Delete</string>
+    <string name="save_edition">Save Edition</string>
 </resources>

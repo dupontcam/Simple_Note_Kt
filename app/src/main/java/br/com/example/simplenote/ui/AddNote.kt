@@ -76,13 +76,15 @@ class AddNote : AppCompatActivity() {
             val noteTitle = findViewById<EditText>(R.id.noteTitle)
             val noteDetails = findViewById<EditText>(R.id.noteDetails)
 
-            val title = noteTitle.text.toString()
-            val description = noteDetails.text.toString()
-
-            if (title.isEmpty() || description.isEmpty()) {
+            if (noteTitle.text.isEmpty() || noteDetails.text.isEmpty()) {
+                noteTitle.error = "Preencha o título"
+                noteDetails.error = "Preencha a descrição"
                 Toast.makeText(this, "Preencha todos os campos.", Toast.LENGTH_SHORT).show()
                 return true
             }
+
+            val title = noteTitle.text.toString()
+            val description = noteDetails.text.toString()
 
             // Crie uma instância de NoteModel com os dados do formulário
             val note = NoteModel(
